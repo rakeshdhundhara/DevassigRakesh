@@ -1,6 +1,6 @@
 # create a local resource 
 resource "local_file" "rakesh" {
-    content= "amal"
+    content= "kamal"
     filename="rake.html"
   
 }
@@ -11,13 +11,13 @@ resource "local_file" "ra1" {
   
 }
 locals {
- file_content = "forum"
+ file_content = "Locals file content pass the local file ra1"
   
 }
-# create a local resource and 
+# create a local resource and provide random in local resousce
 
 resource "local_file" "file1" {
-    content= "amal"
+    content= "kamal"
     filename="rak.py"
 
 }
