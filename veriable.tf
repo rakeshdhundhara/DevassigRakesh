@@ -7,7 +7,7 @@ default = "content are change with variable"
 variable "kesh" {
 type = bool
 description = "rakesh"
-default = True
+default = true
 
 }
 variable "rak1" {

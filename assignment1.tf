@@ -31,17 +31,17 @@ resource "random_id" "OTP"{
 }
 # for virable tasks
 resource "local_file" "rakesh11" {
-    content="welcomr"
+    content=var.rakesh01
     filename="kamal.py"
   
 }
 resource "local_file" "rak01" {
-    content= "welcome to world"
+    content= var.rak1
     filename="dev.html"
   
 }
 resource "local_file" "kesh" {
-    content="var.kesh"
+    content=var.kesh
     filename="rak.txt"
   
 }
