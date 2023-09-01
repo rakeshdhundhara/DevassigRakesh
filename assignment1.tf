@@ -5,7 +5,7 @@ resource "local_file" "rakesh" {
   
 }
 # create a local resousce and pass the locals in local resource
-resource "local_file" "rakesh" {
+resource "local_file" "ra1" {
     content=local.file_content
     filename="rak.html"
   
