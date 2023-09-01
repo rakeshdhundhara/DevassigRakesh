@@ -1,4 +1,4 @@
-variable "var.rakesh01" {
+variable "rakesh01" {
 type = string
 description = "rakesh"
 default = "content are change with variable"
