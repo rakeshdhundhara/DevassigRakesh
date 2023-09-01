@@ -29,3 +29,19 @@ resource "random_id" "OTP"{
     content="${random_id.OTP.hex}"
     filename="rak.py"
 }
+# for virable tasks
+resource "local_file" "rakesh11" {
+    content="welcomr"
+    filename="kamal.py"
+  
+}
+resource "local_file" "rak01" {
+    content= "welcome to world"
+    filename="dev.html"
+  
+}
+resource "local_file" "kesh" {
+    content="var.kesh"
+    filename="rak.txt"
+  
+}
