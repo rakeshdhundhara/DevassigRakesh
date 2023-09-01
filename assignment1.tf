@@ -26,6 +26,6 @@ resource "random_id" "OTP"{
 }
  
  resource "local_file" "file2"{
-    content="${random_id.otp.hex}"
+    content="${random_id.OTP.hex}"
     filename="rak.py"
 }
